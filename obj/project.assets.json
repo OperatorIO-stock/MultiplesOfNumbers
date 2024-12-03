@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/casper/Документы/Codes/MultiplesOfNumbers/MultiplesOfNumbers.csproj",
+      "projectUniqueName": "/home/casper/Документы/Codes/MultiplesOfNumbers/MultiplesOfNumbers/MultiplesOfNumbers.csproj",
       "projectName": "MultiplesOfNumbers",
-      "projectPath": "/home/casper/Документы/Codes/MultiplesOfNumbers/MultiplesOfNumbers.csproj",
+      "projectPath": "/home/casper/Документы/Codes/MultiplesOfNumbers/MultiplesOfNumbers/MultiplesOfNumbers.csproj",
       "packagesPath": "/home/casper/.nuget/packages/",
-      "outputPath": "/home/casper/Документы/Codes/MultiplesOfNumbers/obj/",
+      "outputPath": "/home/casper/Документы/Codes/MultiplesOfNumbers/MultiplesOfNumbers/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/casper/.nuget/NuGet/NuGet.Config"

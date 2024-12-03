@@ -4,22 +4,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        int numberFirst = 10;
-        int numberLast = 25;
+        int numberIntervalFirst = 10;
+        int numberIntervalLast = 25;
+        int numberLowerLimit = 50;
+        int numberUpperLimit = 150;
+        int numbersValid = 0;
 
-        for (int i = numberFirst; i <= numberLast; i++)
+        Random random = new Random();
+        int numberN = random.Next(numberIntervalFirst, numberIntervalLast);
+
+        for (int i = 0; i < numberUpperLimit; i += numberN)
         {
-            Console.WriteLine(i);
+            if (i > numberLowerLimit)
+                numbersValid++;
         }
-
-        Console.WriteLine();
-
-        numberFirst = 50;
-        numberLast = 150;
-
-        for (int i = numberFirst; i <= numberLast; i++)
-        {
-            Console.WriteLine(i);
-        }
+        
+        Console.WriteLine($"The number of multiples '{numberN}': {numbersValid}");
     }
 }
