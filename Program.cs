@@ -13,9 +13,9 @@ class Program
         Random random = new Random();
         int numberN = random.Next(numberIntervalFirst, numberIntervalLast);
 
-        for (int i = 0; i < numberUpperLimit; i += numberN)
+        for (int i = 0; i <= numberUpperLimit; i += numberN)
         {
-            if (i > numberLowerLimit)
+            if (i >= numberLowerLimit)
                 numbersValid++;
         }
         

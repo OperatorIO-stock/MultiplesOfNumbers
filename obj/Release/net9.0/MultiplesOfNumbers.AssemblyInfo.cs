@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiplesOfNumbers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f236f7c2c54b30503b0a12cc59d9192f8d86881")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75bddef8dde443a6e811dda39bb08bfa20c246d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiplesOfNumbers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiplesOfNumbers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
